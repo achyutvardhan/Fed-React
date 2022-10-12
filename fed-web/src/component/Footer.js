@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/footer.css"
 import logo from "./Img/FedLogo.png";
 import spotify from "./Img/spotify.png";
 import linkedin from "./Img/linkedin.png";

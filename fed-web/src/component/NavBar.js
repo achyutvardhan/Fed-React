@@ -1,5 +1,6 @@
 import React from "react";
 import img from "./Img/FedLogo.png";
+import "./css/nav.css"
 import { ToggleHam } from "./js/nav";
 export default function NavBar(props) {
   return (
