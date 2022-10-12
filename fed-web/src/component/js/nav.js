@@ -1,6 +1,5 @@
 let navToggle = 0;
-
-function ToggleHam(event) {
+ export function ToggleHam(e) {
   navToggle++;
   if (navToggle % 2 === 0) {
     document.getElementById("NavListMobo").style.opacity = "0";
@@ -21,6 +20,7 @@ function ToggleHam(event) {
     document.getElementById("ham").innerHTML = `<p>&#10006;</p>`;
   }
 }
+
 
 
 

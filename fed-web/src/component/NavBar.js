@@ -1,7 +1,9 @@
 import React from "react";
 import img from "./Img/FedLogo.png";
-export default function NavBar() {
-  return <div className="page">
+import { ToggleHam } from "./js/nav";
+export default function NavBar(props) {
+  return <>
+  <div className="page">
   <div className="pageExt">
     {/* destop nav */}
     <nav id="desNav">
@@ -58,7 +60,7 @@ export default function NavBar() {
     {/* mobo nav */}
     <nav id="NavMObo">
       <div id="navMOboCon">
-        <div id="navtoggleDiv" onclick="ToggleHam(event)">
+        <div id="navtoggleDiv" onClick={ToggleHam}>
           <div className="hamburger" id="ham">
             <div id="bur1" />
             <div id="bur2" />
@@ -90,7 +92,7 @@ export default function NavBar() {
                   </div> */}
         </div>
         <div className="NewMoboList">
-          {/* <a href="#KnowUs" class="linkClass" onclick="ToggleHam(event)" id="KnowUsMobo">
+          {/* <a href="#KnowUs" class="linkClass" onClick={ToggleHam}" id="KnowUsMobo">
                       <p>About Us</p>
                   </a> */}
           <a href="./Omega.html" className="linkClass">
@@ -147,5 +149,5 @@ export default function NavBar() {
     </div>
   </div>
 </div>
-;
-}
+</>
+};

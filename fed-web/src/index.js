@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './component/css/nav.css'
-import './component/js/nav'
 import './component/js/navMenu'
 import './component/css/footer.css'
 
