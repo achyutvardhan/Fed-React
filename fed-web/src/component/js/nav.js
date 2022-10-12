@@ -2,7 +2,7 @@ let navToggle = 0;
 
 function ToggleHam(event) {
   navToggle++;
-  if (navToggle % 2 == 0) {
+  if (navToggle % 2 === 0) {
     document.getElementById("NavListMobo").style.opacity = "0";
     document.getElementById("NavListMobo").style.visibility = "hidden";
     document.getElementById("NavListMobo").style.transform =

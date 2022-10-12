@@ -9,7 +9,7 @@ function navHighlighter() {
 
     const sectionTop =
       current.getBoundingClientRect().top + window.pageYOffset - 50;
-    const sectionId = current.getAttribute("id");
+    // const sectionId = current.getAttribute("id");
 
     if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
       //   if (current.getAttribute("id") === "KnowUs") {

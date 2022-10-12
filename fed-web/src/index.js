@@ -4,6 +4,8 @@ import './index.css';
 import './component/css/nav.css'
 import './component/js/nav'
 import './component/js/navMenu'
+import './component/css/footer.css'
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
