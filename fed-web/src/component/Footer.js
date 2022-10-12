@@ -1,11 +1,16 @@
 import React from "react";
+import logo from "./Img/FedLogo.png";
+import spotify from "./Img/spotify.png";
+import linkedin from "./Img/linkedin.png";
+import youtube from "./Img/youtube.png";
+import insta from "./Img/instagram.png";
 
 export default function Footer() {
   return <>
   <section id="footer">
     <footer className="desFooter">
       <div className="logo">
-        <img src="./Img/FedLogo.png" alt="" className="imglogo" />
+        <img src={logo} alt="" className="imglogo" />
         <p className="LogoFED" id="FED">
           FED
         </p>
@@ -33,7 +38,7 @@ export default function Footer() {
               target="_blank"
             >
               <img
-                src="./Img/instagram.png"
+                src={insta}
                 alt="instagram"
                 className="IconsTag"
               />
@@ -44,7 +49,7 @@ export default function Footer() {
               target="_blank"
             >
               <img
-                src="./Img/linkedin.png"
+                src={linkedin}
                 alt="linkedin"
                 className="IconsTag"
               />
@@ -54,14 +59,14 @@ export default function Footer() {
               className="linkClass"
               target="_blank"
             >
-              <img src="./Img/spotify.png" alt="spotify" className="IconsTag" />
+              <img src={spotify} alt="spotify" className="IconsTag" />
             </a>
             <a
               href="https://youtube.com/channel/UC7LjeEyGyr656BU2VpCbCJA"
               className="linkClass"
               target="_blank"
             >
-              <img src="./Img/youtube.png" alt="youtube" className="IconsTag" />
+              <img src={youtube} alt="youtube" className="IconsTag" />
             </a>
           </div>
           {/* <p class="newsletter">Newsletter</p>
@@ -93,7 +98,7 @@ export default function Footer() {
     <footer className="MoboFooter">
       <div className="MoboFooterLogoDiv">
         <div className="logo">
-          <img src="./Img/FedLogo.png" alt="" className="imglogo" />
+          <img src={logo} alt="" className="imglogo" />
           <p className="LogoFED" id="FED">
             FED
           </p>
@@ -105,7 +110,7 @@ export default function Footer() {
             target="_blank"
           >
             <img
-              src="./Img/instagram.png"
+              src={insta}
               alt="instagram"
               className="IconsTag"
             />
@@ -115,21 +120,21 @@ export default function Footer() {
             className="linkClass Hidea650"
             target="_blank"
           >
-            <img src="./Img/linkedin.png" alt="linkedin" className="IconsTag" />
+            <img src={linkedin} alt="linkedin" className="IconsTag" />
           </a>
           <a
             href="https://open.spotify.com/show/3s0jcteh4gcNcJeECstoMj?si=G7NjOL73Qxq4K6r3fy_-VA&utm_source=whatsapp"
             className="linkClass Hidea650"
             target="_blank"
           >
-            <img src="./Img/spotify.png" alt="spotify" className="IconsTag" />
+            <img src={spotify} alt="spotify" className="IconsTag" />
           </a>
           <a
             href="https://youtube.com/channel/UC7LjeEyGyr656BU2VpCbCJA"
             className="linkClass Hidea650"
             target="_blank"
           >
-            <img src="./Img/youtube.png" alt="youtube" className="IconsTag" />
+            <img src={youtube} alt="youtube" className="IconsTag" />
           </a>
         </div>
       </div>

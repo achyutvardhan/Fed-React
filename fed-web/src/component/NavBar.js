@@ -1,5 +1,5 @@
 import React from "react";
-
+import img from "./Img/FedLogo.png";
 export default function NavBar() {
   return <div className="page">
   <div className="pageExt">
@@ -8,7 +8,7 @@ export default function NavBar() {
       <div className="navmDiv">
         <a href="/" className="linkClass">
           <div className="LogoDiv">
-            <img src="./Img/FedLogo.png" alt="" />
+            <img src={img} alt="" />
             <p className="LogoFED">FED</p>
           </div>
         </a>
@@ -67,7 +67,7 @@ export default function NavBar() {
         </div>
         <a href="/" className="linkClass">
           <div className="LogoDiv">
-            <img src="./Img/FedLogo.png" alt="FEDLogoImg" />
+            <img src={img} alt="FEDLogoImg" />
             <p className="LogoFED">FED</p>
           </div>
         </a>
