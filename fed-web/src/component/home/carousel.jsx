@@ -6,7 +6,6 @@ import { Carousel } from 'react-responsive-carousel';
 import desktop from "../../Img/Desktop.png"
 import desktop1 from "../../Img/Desktop.png"
 import desktop2 from "../../Img/Desktop.png"
-// import desktop3 from "../Img/Desktop.png"
 // import { module } from '../../public/webpack.config';
 
 class DemoCarousel extends Component {
