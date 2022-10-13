@@ -1,10 +1,10 @@
 import React from "react";
-import "./css/footer.css"
-import logo from "./Img/FedLogo.png";
-import spotify from "./Img/spotify.png";
-import linkedin from "./Img/linkedin.png";
-import youtube from "./Img/youtube.png";
-import insta from "./Img/instagram.png";
+import "../css/footer.css"
+import logo from "../Img/FedLogo.png";
+import spotify from "../Img/spotify.png";
+import linkedin from "../Img/linkedin.png";
+import youtube from "../Img/youtube.png";
+import insta from "../Img/instagram.png";
 
 export default function Footer() {
   return (
