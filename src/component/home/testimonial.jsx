@@ -1,6 +1,19 @@
 import React from "react";
-
+import Testimon from "./testimonial/testimon";
 export default function testimonial() {
+const testi = [ 
+  {
+    testpTag : '“Amazing tournament... please inform any further tournaments youconduct.”',
+    userName : 'Ayan',
+    userPost : 'FED H2 Invitational'
+  },
+  {
+    testpTag : '“It was very informative indeed. i got to know much about digital art and how to make it. loved it.”',
+    userName : 'Avignya Kashyap',
+    userPost : 'NFT workshop'
+  }
+]
+
   return (
     <>
       <section id="testimonial">
@@ -9,32 +22,8 @@ export default function testimonial() {
         </p>
         <div className="testDivMain">
           <div className="testDivChild">
-            <div className="testDiv">
-              <p className="testpTag">
-                “Amazing tournament... please inform any further tournaments you
-                conduct.”
-              </p>
-              <div className="userDiv">
-                {/* <img src="./Img/user.png" alt="user" class="UserIcon" /> */}
-                <div className="userDisDiv">
-                  <p className="userName">Ayan</p>
-                  <p className="userPost">FED H2 Invitational</p>
-                </div>
-              </div>
-            </div>
-            <div className="testDiv">
-              <p className="testpTag">
-                “It was very informative indeed. i got to know much about
-                digital art and how to make it. loved it.”
-              </p>
-              <div className="userDiv">
-                {/* <img src="./Img/user.png" alt="user" class="UserIcon" /> */}
-                <div className="userDisDiv">
-                  <p className="userName">Avignya Kashyap</p>
-                  <p className="userPost">NFT workshop</p>
-                </div>
-              </div>
-            </div>
+            <Testimon testi= {testi[0]}/>
+            <Testimon testi = {testi[1]}/>
           </div>
         </div>
         <div className="SeeallDiv">
