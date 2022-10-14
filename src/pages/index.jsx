@@ -7,6 +7,7 @@ import ContactUs from "../component/home/contactUs";
 import "../css/home.css";
 import "../css/carousel.css";
 import "../css/flicker.css";
+
 export default function index() {
   return (
     <>
