@@ -1,0 +1,332 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+
+.UpcomingEvents {
+  font-family: "Rubik", sans-serif;
+  margin: 30px 0px 40px 40px;
+  font-size: 30px;
+  line-height: 35.55px;
+  color: #afafaf;
+}
+
+.toogle {
+  display: block;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f45725;
+}
+
+.imgOmega {
+  width: 30%;
+  background-color: transparent;
+  margin-bottom: 30px;
+}
+
+textarea {
+  resize: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 100%;
+}
+
+#eventBox {
+  display: flex;
+  flex-direction: column;
+}
+
+#cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.eventsCardDiv {
+  margin: 0px 40px 40px 40px;
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  width: 45%;
+}
+
+.content {
+  border-radius: 32px;
+  background-color: #1e1e1e;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.lockCards {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.02);
+  border-radius: 32px;
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkParent {
+  background-color: transparent;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 4em;
+  font-weight: 900;
+}
+
+.linkOmega {
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  text-shadow: 5px 5px 10px #182b4d;
+}
+
+.fixedContent {
+  background-color: transparent;
+  padding: 0px 10px;
+}
+
+.lockSvg {
+  background-color: transparent;
+  margin-left: 5px;
+}
+
+.lockSvg path {
+  color: #f45725;
+}
+
+.fixedContent p {
+  font-family: "Rubik", sans-serif;
+  background-color: transparent;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.flexDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: transparent;
+}
+
+.rightDiv {
+  width: 100%;
+  background-color: transparent;
+}
+
+.h1Title {
+  font-family: "Rubik", sans-serif;
+  background-color: transparent;
+  font-size: 28px;
+}
+
+.des {
+  margin-top: 12px;
+  font-size: 15px;
+  color: #afafaf;
+  background-color: transparent;
+  font-family: "Manrope", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  height: 75%;
+  margin-bottom: 50px;
+}
+
+.DateDiv {
+  background-color: transparent;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.DatePTAg {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.DatePDiv {
+  background-color: transparent;
+}
+
+.DatePDiv p {
+  background-color: transparent;
+}
+
+.monthName {
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  color: #afafaf;
+}
+
+.hammerImg {
+  margin-top: 40px;
+  border-radius: 10px;
+  width: 121px;
+  height: 72px;
+  background-color: transparent;
+}
+
+.regBtn {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-family: "Manrope", sans-serif;
+  float: right;
+  margin-left: 20px;
+  /* margin-top: 0px; */
+  border-radius: 16px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 67px;
+  background-color: rgb(209, 209, 209);
+  /* background-color: #0f0e0e; */
+  outline: none;
+  border-width: 0px;
+  color: #f45725;
+  /* color: #fff; */
+  font-weight: 700;
+  transition: all 0.3s;
+  cursor: not-allowed;
+  /* cursor: pointer; */
+  display: flex;
+  align-items: center;
+}
+
+.regBtnactive {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-family: "Manrope", sans-serif;
+  float: right;
+  margin-left: 20px;
+  font-family: "Manrope", sans-serif;
+  float: right;
+  /* margin-top: 25px; */
+  border-radius: 16px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 67px;
+  /* background-color: rgb(209, 209, 209); */
+  background-color: #0f0e0e;
+  outline: none;
+  border-width: 0px;
+  /* color: #f45725; */
+  color: #fff;
+  font-weight: 700;
+  transition: all 0.3s;
+  /* cursor: not-allowed; */
+  cursor: pointer;
+}
+
+.regBtnactive:hover {
+  background-color: #f45725;
+}
+
+@media only screen and (max-width: 700px) {
+  #eventBox {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #prevEventCard {
+    width: 99%;
+    margin-left: -15px;
+  }
+
+  #cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .eventsCardDiv {
+    width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 1570px) {
+  .regBtn {
+    margin-top: 25px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .hammerImg {
+    margin-top: 0px;
+  }
+
+  .RegmDiv {
+    margin-bottom: 30px;
+  }
+
+  .flexDiv {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .DateDiv {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+
+  .DatePDiv {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    font-size: 20px;
+  }
+
+  .rightDiv {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .LinkDiv {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    align-items: center;
+    /* margin-top: 50px; */
+  }
+
+  .regBtn {
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .regBtn {
+    padding: 10px 40px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .regBtn {
+    padding: 10px 20px;
+  }
+
+  .hammerImg {
+    margin-top: 0px;
+    margin-right: 1.2rem;
+  }
+
+  .DatePDiv {
+    margin-right: -1rem;
+  }
+}
