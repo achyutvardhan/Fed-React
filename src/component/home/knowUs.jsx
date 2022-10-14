@@ -108,7 +108,10 @@ export default function knowUs() {
           <div className="believeCenterCol">
             <p>
               Aiming in
-              <span>providing a hospitable and welcoming environment</span>{" "}
+              <span>
+                {" "}
+                providing a hospitable and welcoming environment
+              </span>{" "}
               among team members, collaborators, and participants.
             </p>
           </div>
