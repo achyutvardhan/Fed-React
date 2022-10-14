@@ -1,13 +1,13 @@
-import React from 'react'
-import women from '../../Img/image 7.png'
-import why from '../../Img/why.png'
-import how from '../../Img/how.png'
-import what from '../../Img/what.png'
+import React from "react";
+import women from "../../Img/image 7.png";
+import why from "../../Img/why.png";
+import how from "../../Img/how.png";
+import what from "../../Img/what.png";
 
 export default function knowUs() {
   return (
     <>
-    <section id="KnowUs">
+      <section id="KnowUs">
         <div className="KnowUsmDiv">
           <p id="KnowUspTag">
             <span className="KnowUspTag">Know us </span>
@@ -96,7 +96,7 @@ export default function knowUs() {
           <div className="believeCenterCol">
             <p>
               Organizing entrepreneurial activities to
-              <span>boost the confidence</span> of aspiring entrepreneurs.
+              <span> boost the confidence</span> of aspiring entrepreneurs.
             </p>
           </div>
           <div className="believeCenterCol">
@@ -113,6 +113,7 @@ export default function knowUs() {
             </p>
           </div>
         </div>
-      </section></>
-  )
+      </section>
+    </>
+  );
 }
