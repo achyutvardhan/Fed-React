@@ -1,12 +1,13 @@
 import React from "react";
 
-export default function Img(props,i) {
-  console.log(props);
-  i=0;
+export default function Img(props) {
+  console.log(props.key);
+  let i=0;
+  i++;
   return (
     <>
       <div className="slide">
-        <img src={props.img[0].src} height={100} width={250} alt="" />
+        <img src={props.img[i].src} height={100} width={250} alt="" />
       </div>
     </>
   );

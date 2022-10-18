@@ -1,5 +1,5 @@
 import React from "react";
-// import Carousel from "../component/home/carousel";
+import Carousel from "../component/home/Carousel";
 import KnowUs from "../component/home/knowUs";
 import Testimonial from "../component/home/testimonial";
 import Work from "../component/home/work";
@@ -11,7 +11,7 @@ import "../css/flicker.css";
 export default function index() {
   return (
     <>
-      {/* <Carousel/> */}
+      <Carousel/>
       {/* Know Us */}
       <KnowUs />
       {/* testimonial */}
