@@ -1,9 +1,9 @@
 import React from "react";
 import Carousel from "../component/home/Carousel";
-import KnowUs from "../component/home/knowUs";
-import Testimonial from "../component/home/testimonial";
-import Work from "../component/home/work";
-import ContactUs from "../component/home/contactUs";
+import KnowUs from "../component/home/KnowUs";
+import Testimonial from "../component/home/Testimonial";
+import Work from "../component/home/Work";
+import ContactUs from "../component/home/ContactUs";
 import "../css/home.css";
 import "../css/carousel.css";
 import "../css/flicker.css";
