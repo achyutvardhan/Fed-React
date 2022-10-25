@@ -8,6 +8,7 @@
 .KnowUsmDiv {
   padding: 95px 0px 0px 0px;
   background-image: url("./../Img/image-23.png");
+  background-color: #0f0e0e;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,8 +68,7 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin-bottom: 45px;
-  background-color: transparent;
+  background-color:#0f0e0e;
   margin-top: -30px;
 }
 
@@ -145,7 +145,7 @@
   font-weight: 700;
   font-size: 50px;
   line-height: 59px;
-  margin: 90px 0px;
+  margin: 0px 0px 90px 0px;
 }
 
 .believeCenterDiv {
@@ -153,7 +153,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 135px;
+  /* margin-bottom: 135px; */
 }
 
 .believeCenterCol {
@@ -273,7 +273,6 @@
   display: flex;
   width: 100%;
   justify-content: flex-end;
-  margin-bottom: 113px;
 }
 
 .WeWorkWith {
@@ -573,9 +572,6 @@ form {
     width: 80%;
   }
 
-  .believeCenterDiv {
-    margin-bottom: 40px;
-  }
 
   .testpTag {
     margin-bottom: 40px;

@@ -1,5 +1,6 @@
 import React from "react";
 import Testimon from "./testimonial/testimon";
+import "./testimonial/Testimonial.css"
 export default function testimonial() {
 const testi = [ 
   {
@@ -33,6 +34,7 @@ const testi = [
             </a>
           </p>
         </div>
+        <div className="space2"></div>
       </section>
     </>
   );

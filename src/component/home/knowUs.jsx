@@ -1,4 +1,5 @@
 import React from "react";
+import "./knowUs/space.css"
 import Content from "./knowUs/content";
 import Believer from "./knowUs/believer";
 import women from "../../Img/image 7.png";
@@ -61,8 +62,10 @@ export default function knowUs() {
           <Content knowus={knowus[1]} />
           <Content knowus={knowus[2]} />
         </div>
+        <div className="space1" ></div>
         {/* Believe */}
         <Believer />
+        <div className="space" ></div>
       </section>
     </>
   );

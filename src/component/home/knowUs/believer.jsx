@@ -1,8 +1,9 @@
 import React from "react";
-
+import "./Beliver.css";
 export default function believer() {
   return (
     <>
+    <section className="Beleiver">
       <p className="BelievePTag">
         What we <span>believe</span> in...
         <span id="appleIcon">
@@ -47,6 +48,7 @@ export default function believer() {
           </p>
         </div>
       </div>
+    </section>
     </>
   );
 }
