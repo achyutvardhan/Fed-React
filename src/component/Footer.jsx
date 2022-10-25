@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/footer.css"
+import "./footer/footer.css"
 import DeskView from "./footer/deskView";
 import MobView from "./footer/mobView";
 

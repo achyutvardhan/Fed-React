@@ -2,7 +2,7 @@ import React from "react";
 import DeskView from "./navBar/deskView";
 import MobView from "./navBar/mobView";
 import Content from "./navBar/content";
-import "../css/nav.css"
+import "./navBar/nav.css"
 export default function NavBar(props) {
   return (
     <>

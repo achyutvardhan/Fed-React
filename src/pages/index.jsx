@@ -4,9 +4,9 @@ import KnowUs from "../component/home/KnowUs";
 import Testimonial from "../component/home/Testimonial";
 import Work from "../component/home/Work";
 import ContactUs from "../component/home/ContactUs";
-import "../css/home.css";
-import "../css/carousel.css";
-import "../css/flicker.css";
+import "./index-css/home.css";
+import "./index-css/carousel.css";
+// import "./index-css/flicker.css";
 
 export default function index() {
   return (
