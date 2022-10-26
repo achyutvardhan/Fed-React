@@ -193,6 +193,8 @@
   background-color: #fff;
   padding: 24px;
   width: 40%;
+  height: 294px;
+  overflow: hidden ;
   border-radius: 12px;
 }
 
