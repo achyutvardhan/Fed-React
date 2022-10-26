@@ -1,40 +1,46 @@
+.swiper-button-next,
+.swiper-button-prev {
+  margin: 0%;
+  padding: 20px;
+  color: white;
+  background-color: #0f0e0e;
+  font-size: 15px;
+  font-weight: bold;
+  user-select: none;
+  border-radius: 0 3px 3px 0;
+  transition: all 0.3s ease;
+}
 
-.swiper-button-next,.swiper-button-prev{
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 24px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-    transition: all 0.3s ease;
-    opacity:0.5;
+.swiper-button-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #f45725;
+}
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: white;
+  font-size: none;
+}
+
+@media only screen and (max-width: 300px) {
+  .swiper-button-prev,
+  .swiper-button-next,
+  .text {
+    font-size: 11px;
   }
-  .swiper-button-next{
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  
-  .swiper-button-prev:hover,
-  .swiper-button-next:hover {
-    opacity: 1;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: #f45725;
-  }
-  
-  @media only screen and (max-width: 300px) {
-    .swiper-button-prev,
-    .swiper-button-next,
-    .text {
-      font-size: 11px;
-    }
-  }
-  .carousel{
-    height: 740px;
-    width: 100%;
-  }
-  
-  .swiper-pagination{
-    opacity:0;
-  }
+}
+.carousel {
+  height: 740px;
+  width: 100%;
+}
+
+.swiper-pagination {
+  opacity: 0;
+}
