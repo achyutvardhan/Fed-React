@@ -24,13 +24,13 @@ export default () => {
       onSlideChange={() => console.log("slide change")}
       autoplay={{ delay: 6000 }}
     >
-      <SwiperSlide>
+      <SwiperSlide className="upper_caro">
         <img src={img1} className="carousel" alt="" />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="upper_caro">
         <img src={img2} className="carousel" alt="" />
       </SwiperSlide>
-      <SwiperSlide>
+      <SwiperSlide className="upper_caro">
         <img src={img3} className="carousel" alt="" />
       </SwiperSlide>
     </Swiper>

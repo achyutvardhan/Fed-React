@@ -23,11 +23,11 @@
   background-color: rgba(0, 0, 0, 0.8);
   color: #f45725;
 }
-.swiper-button-next:after,
+/* .swiper-button-next:after,
 .swiper-button-prev:after {
   color: white;
   font-size: none;
-}
+} */
 
 @media only screen and (max-width: 300px) {
   .swiper-button-prev,
@@ -43,4 +43,8 @@
 
 .swiper-pagination {
   opacity: 0;
+}
+
+.upper_caro{
+  background-color: #0f0e0e;
 }
